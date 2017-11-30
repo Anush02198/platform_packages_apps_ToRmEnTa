@@ -38,6 +38,12 @@
             android:persistent="false"
             android:title="@string/backlight_timeout_title" />
 
+        <SwitchPreference
+            android:key="button_brightness_sw"
+            android:title="@string/button_brightness_sw_title"
+            android:persistent="false"
+            android:dependency="enable_hw_keys" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
