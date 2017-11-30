@@ -47,6 +47,12 @@
             android:title="@string/button_brightness_sw_title"
             android:persistent="false" />
 
+        <com.aos.laboratory.preferences.SystemSettingSwitchPreference
+            android:key="button_backlight_on_touch_only"
+            android:title="@string/button_backlight_on_touch_only_title"
+            android:summary="@string/button_backlight_on_touch_only_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
